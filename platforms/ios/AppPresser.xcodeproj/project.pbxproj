@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		017B05E42B7A422DAA9C35AE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89571F301D049CBB728DA71 /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		027A354AB9EA4222926430E4 /* CDVCapture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 932DE81119784B76B36477B1 /* CDVCapture.bundle */; };

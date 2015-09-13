@@ -3,20 +3,21 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.testap2015.app"
+        id        = "com.music.cryns.myapp"
         version   = "1.0.0">
 
-    <name>2015 Test Project</name>
+    <!-- Change app id (above), name, description, and author. App ID can be any reverse domain name, such as com.mycompany.app -->
+    <name>Cryns Family Music Archive</name>
 
     <description>
-        Example app.
+        All the Cryns Family Music.  All in One Place.
     </description>
 
-    <author href="http://apppresser.com" email="youremail@yourdomain.com">
-        AppPresser
+    <author href="http://cryns.com" email="toby@cryns.com">
+        Toby Cryns
     </author>
 
-    <preference name="phonegap-version" value="3.7.0" />
+    <preference name="phonegap-version" value="3.6.3" />
     <preference name="android-minSdkVersion" value="14" /><!-- Android 4.0 is minimum supported -->
     <feature name="http://api.phonegap.com/1.0/device" />
     
@@ -24,6 +25,7 @@
     <gap:platform name="ios" />
     <gap:platform name="android" />
     
+    <!-- You can comment out features you aren't using -->
     <gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
     <gap:plugin name="com.phonegap.plugins.pushplugin" version="2.4.0" />
     <gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.8" />
@@ -40,10 +42,17 @@
     <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />
     <gap:plugin name="org.apache.cordova.vibration" version="0.3.11" />
 
+    <!-- to show app faster, set autohide to true. iOS only -->
     <preference name="AutoHideSplashScreen" value="false" />
+
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="keyboardDisplayRequiresUserAction" value="false" />
+    <preference name="webviewbounce" value="false" />
 
+    <!-- If you are seeing a blank screen on Android on app load, uncomment SplashScreenDelay preference -->
+    <!--preference name="SplashScreenDelay" value="10000" /-->
+
+    <!-- No need to edit below this line -->
     <gap:splash src="splash.png"/>
 
     <gap:splash src="res/screen/ios/screen-iphone-portrait.png" gap:platform="ios" width="320" height="480" />
