@@ -7,7 +7,7 @@
         version   = "1.0.0">
 
     <!-- Change app id (above), name, description, and author. App ID can be any reverse domain name, such as com.mycompany.app -->
-    <name>The Cryns Family Music Archive</name>
+    <name>Cryns Family Music Archive</name>
 
     <description>
         All the Cryns Family Music.  All in One Place.
